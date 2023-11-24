@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0e0e0e;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color:black;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input and button styles */
+  input[type="text"],
+  input[type="number"],
+  button {
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    width: calc(100% - 18px);
+  }
+  
+  /* button { 
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+  }*/
+  
+  
+  
+  /* Table styles */
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  h1{
+   
+    /* font-weight: 1500; */
+    margin-bottom: 55px;
+    text-align: center;
+  }
+  h1,h2{
+    color: #fff;
+  }
+  #hi{
+    color: #fff;
+  }
+  #hii{
+    margin-top: 35px;
+    margin-bottom: 36px;
+    color: #ccc;
+    border: none;
+    background-color: red;
+    height:40px;
+  }
+  #hii:hover{
+    background-color: rgb(182, 9, 9);
+
+  }
+  #expenses-list{
+    color: white;
+  }
+#expense-name{
+    border:none;
+    border-bottom:3px groove white;
+    outline:none; 
+    background: transparent;
+    color: antiquewhite;
+}
+ #expense-amount{
+  border:none;
+  border-bottom:3px groove white;
+  outline:none; 
+  background: transparent;
+  color: antiquewhite;
+ }
+#num-people{
+  border:none;
+  border-bottom:3px groove white;
+  outline:none; 
+  background: transparent;
+  color: antiquewhite;
+}
+#names{
+  border:none;
+  border-bottom:3px groove white;
+  outline:none; 
+  background: transparent;
+  color: antiquewhite;
+}
+button{
+  background-color: red;
+}
+button:hover{
+  background-color: rgb(159, 7, 7);
+}
+span{
+  color: red;
+}
+
+.kitty h1 span {
+  color: red;
+}
+#p{
+  color: white;
+}
